@@ -1,0 +1,12 @@
+{
+  "sounds": [
+    {
+      "name": "Fire",
+      "filename" : "fire.ogg"
+    },
+    {
+      "name": "Rain",
+      "filename" : "Rain-sound.mp3"
+    }
+  ]
+}
