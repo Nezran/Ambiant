@@ -3,25 +3,27 @@
  */
 
 import React from 'react';
-const Sounds = require('../../constants/sound.json');
+// import toto from '../../sound/fire.ogg';
+import test from 'file-loader?name=[path][name].[ext]!../../sound/Raining-sound.mp3';
+import fire from 'file-loader?name=[path][name].[ext]!../../sound/Fire.ogg';
+import Sound from '../Sound/Sound';
 
 export default class Engine extends React.Component{
   constructor(props){
     super(props);
-    this.sounds();
   }
-  sounds(){
-    fetch(Sounds)
-      .then( (response) => {
-        return response.json() })
-      .then( (json) => {
-        this.setState({data: json});
-      });
-  }
+
   render(){
     return(
       <div>
+        {console.log(test,fire)}
         <h1>Engine</h1>
+        <audio controls>
+            <source src={test} type="audio/mpeg"/>
+              Your browser does not support the audio element.
+        </audio>
+
+          <Sound url="source/constants/sound.json"/>
       </div>
     )
   }

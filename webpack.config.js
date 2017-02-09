@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const AudioSpritePlugin = require('webpack-audio-sprite-plugin');
 const path = require('path');
 const _source = path.resolve(__dirname, "source");
 const _build = path.resolve(__dirname, "build");
@@ -13,7 +14,8 @@ module.exports = {
       loaders: [
           { test: /\.js$/, exclude:/node_modules/, loaders: ["babel-loader"] },
           { test: /\.s?css$/, exclude:/node_modules/, loaders: ["style-loader", "css-loader", "sass-loader"] },
-          { }
+          // { test: /\.(mp3|ogg)$/, exclude:/node_modules/, loader: AudioSpritePlugin.loader() },
+          // { test: /\.(mp3|ogg|json)$/, exclude:/node_modules/, loader: ["file-loader", "url-loader"] }
       ]
     },
     plugins: [
@@ -22,6 +24,7 @@ module.exports = {
             filename: "index.html",
             inject: "body",
         }),
+        new AudioSpritePlugin()
     ],
 };
 

@@ -2,11 +2,11 @@
   "sounds": [
     {
       "name": "Fire",
-      "filename" : "fire.ogg"
+      "filename" : "source/sound/fire.ogg"
     },
     {
       "name": "Rain",
-      "filename" : "Rain-sound.mp3"
+      "filename" : "source/sound/Raining-sound.mp3"
     }
   ]
 }
