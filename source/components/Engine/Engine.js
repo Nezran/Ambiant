@@ -4,9 +4,10 @@
 
 import React from 'react';
 // import toto from '../../sound/fire.ogg';
-import test from 'file-loader?name=[path][name].[ext]!../../sound/Raining-sound.mp3';
+// import test from 'file-loader?name=[path][name].[ext]!../../sound/Raining-sound.mp3';
 import fire from 'file-loader?name=[path][name].[ext]!../../sound/Fire.ogg';
-import Sound from '../Sound/Sound';
+// import Sound from '../Sound/Sound';
+import Sounds from '../Sounds/Sounds';
 
 export default class Engine extends React.Component{
   constructor(props){
@@ -16,14 +17,14 @@ export default class Engine extends React.Component{
   render(){
     return(
       <div>
-        {console.log(test,fire)}
+        {console.log(fire)}
         <h1>Engine</h1>
         <audio controls>
-            <source src={test} type="audio/mpeg"/>
+            <source src={fire} type="audio/mpeg"/>
               Your browser does not support the audio element.
         </audio>
 
-          <Sound url="source/constants/sound.json"/>
+          <Sounds url="source/constants/sound.json"/>
       </div>
     )
   }

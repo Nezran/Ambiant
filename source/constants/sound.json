@@ -1,12 +1,85 @@
 {
   "sounds": [
     {
-      "name": "Fire",
-      "filename" : "source/sound/fire.ogg"
+      "filename": "Birds_Singing_Relaxation.mp3",
+      "name": "Birds_Singing_Relaxation"
     },
     {
-      "name": "Rain",
-      "filename" : "source/sound/Raining-sound.mp3"
+      "filename": "Chirping_Birds.mp3",
+      "name": "Chirping_Birds"
+    },
+    {
+      "filename": "Christmas_Ringtone.mp3",
+      "name": "Christmas_Ringtone"
+    },
+    {
+      "filename": "fire.ogg",
+      "name": "fire"
+    },
+    {
+      "filename": "Great_Horned_Owl_Call.mp3",
+      "name": "Great_Horned_Owl_Call"
+    },
+    {
+      "filename": "Horse_Walking_Stone.mp3",
+      "name": "Horse_Walking_Stone"
+    },
+    {
+      "filename": "Loud_Birds_Early_Morning.mp3",
+      "name": "Loud_Birds_Early_Morning"
+    },
+    {
+      "filename": "Mountain_Stream.mp3",
+      "name": "Mountain_Stream"
+    },
+     {
+      "filename": "Ocean_Music.mp3",
+      "name": "Ocean_Music"
+    },
+    {
+      "filename": "Raining_sound.mp3",
+      "name": "Raining_sound"
+    },
+    {
+      "filename": "Rain_Falling_On_Leaves.mp3",
+      "name": "Rain_Falling_On_Leaves"
+    },
+    {
+      "filename": "Rain_Sleep.mp3",
+      "name": "Rain_Sleep"
+    },
+    {
+      "filename": "Relaxing Sound Of Summer Rain.mp3",
+      "name": "Relaxing Sound Of Summer Rain"
+    },
+    {
+      "filename": "Relaxing_Noises.mp3",
+      "name": "Relaxing_Noises"
+    },
+    {
+      "filename": "Relax_Rain.mp3",
+      "name": "Relax_Rain"
+    },
+    {
+      "filename": "Soothing_Rain.mp3",
+      "name": "Soothing_Rain"
+    },
+    {
+      "filename": "Thunderstorm_And_Wind_Chimes.mp3",
+      "name": "Thunderstorm_And_Wind_Chimes"
+    },
+    {
+      "filename": "Thunder_Rain.mp3",
+      "name": "Thunder_Rain"
+    },
+    {
+      "filename": "Waves_Sound_Effect.mp3",
+      "name": "Waves_Sound_Effect"
+    },
+    {
+      "filename": "Weather_Ambient_Sounds_Rain_Noises.mp3",
+      "name": "Weather_Ambient_Sounds_Rain_Noises"
     }
+
   ]
 }
