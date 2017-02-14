@@ -6,7 +6,7 @@ import React from 'react';
 import ReactHowler from 'react-howler'
 import Paper from 'material-ui/Paper';
 import Slider from 'material-ui/Slider';
-
+import './Sound.css';
 export default class Sound extends React.Component{
     state={
         playing: false,

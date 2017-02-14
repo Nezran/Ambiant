@@ -47,11 +47,12 @@
   },
   "dependencies": {
     "babel-runtime": "^6.22.0",
+    "jquery": "2.1.1",
     "material-ui": "^0.16.7",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-howler": "^3.5.0",
-    "react-tap-event-plugin": "^2.0.1",
-    "jquery": "2.1.1"
+    "react-scrollbar": "^0.5.1",
+    "react-tap-event-plugin": "^2.0.1"
   }
 }
